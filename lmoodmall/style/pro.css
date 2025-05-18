@@ -1,0 +1,26 @@
+.pro_one,.pro_two{
+    width: 100%;
+}
+
+.product{
+    padding-bottom: 72px;
+}
+
+.product div{
+    padding-top: 72px;
+    padding-left: 6.306vw;
+}
+
+.product div h3{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.product div a p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    color: #3c3c3c;
+}

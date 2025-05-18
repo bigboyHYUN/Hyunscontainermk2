@@ -1,0 +1,94 @@
+.visual_container{
+    background: url('../img/visual.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:60px 32px 32px 32px;
+    position: relative;
+}
+
+.end_container{
+    background: url('../img/four.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:60px 32px 32px 32px;
+    position: relative;
+    margin-top: 140px;
+}
+
+.visual_container > span{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.visual_item{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visual_item h2,
+.visual_item h2 span{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.vi_bottom{
+    display: flex;
+    position: absolute;
+    bottom: 32px;
+}
+
+.vi_bottom div h6
+,.vi_bottom div p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vi_bottom div h6{
+    margin-bottom: 6px;
+}
+
+.vi_scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 32px;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vi_scroll h5{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+
+}
+
+.vi_scroll_arrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.vi_scroll_arrow img{
+    width: 12px;
+    height: 6px;
+
+}
+
+.vi_scroll_arrow img + img{
+    margin-top: 2px;
+}

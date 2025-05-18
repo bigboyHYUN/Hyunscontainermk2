@@ -1,0 +1,31 @@
+.visual_container{
+    background: url('../img/visual.jpg ');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    padding:32px;
+}
+
+.vi_title{
+    margin-bottom: 32px;
+}
+
+.vi_title li span{
+    display: block;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vi_title li span + span{
+    margin-top: 6px;
+}
+
+.vi_sub li p{
+    color: #fff;
+    font-weight: 300;
+}
+

@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pretendard-Regular', sans-serif;
+  color:#1c1c1c;
+}
+
+.container{
+    width: 96.847%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes blink2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .blinking-text {
+    animation: blink 1.5s infinite; /* 1초 간격으로 무한 반복 */
+  }
+
+  .blinking-text2 {
+    animation: blink2 1.5s infinite; /* 1초 간격으로 무한 반복 */
+  }
+  
+  .blinking-text_slow {
+    animation: blink2 2s infinite; /* 1초 간격으로 무한 반복 */
+  }
+  
+  .blinking-text_slower {
+    animation: blink2 3.5s infinite; /* 1초 간격으로 무한 반복 */
+  }
+
+[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  transform: translateY(6rem) scale(0.93);
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-scroll='in'] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+[data-scroll='out'] {
+  opacity: 0;
+}
+
+.step_bar{
+  display: flex;
+}
+
+.step_item{
+  width: 32.418%;
+  height: 314px;
+  border: 1px solid #111111;
+  border-radius: 36px;
+  padding: 0 48px;
+  position: relative;
+}
+
+.step_item + .step_item{
+  margin-left: 20px;
+}
+
+.step_item > img{
+  width: 100px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.sm_ic{
+  width: 48px;
+  height: 52px;
+}
+
+.mi_ic{
+  width: 52px;
+  height: 52px;
+}
+
+.big_ic{
+  width: 82px;
+  height: 52px;
+}
+
+.step_item_top{
+  display: flex;
+  align-items: center;
+}
+
+.step_item div h4{
+  font-size: 42px;
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.step_item > div:nth-of-type(1):after{
+  content: '';
+  display: block;
+  width: 400px;
+  height: 1px;
+  background-color: #cfcfcf;
+  margin: 24px 0;
+}
+
+.step_sub{
+  color: #3c3c3c;
+}
+
+.moc_img{
+  background: #fff;
+}
+
+.moc_img img{
+  width: 100%;
+}
+
+.moc_text{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.moc_text h4{
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.moc_text p{
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.end{
+    background: url('../img/end.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.end img{
+  width: 758px;
+  height: 313px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

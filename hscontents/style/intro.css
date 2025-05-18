@@ -1,0 +1,38 @@
+.intro_container{
+    width: 71.203%;
+    margin: 0 auto;
+    padding-top: 143px;
+}
+
+.intro_item_img{
+    display: flex;
+}
+
+.intro_item_img div{
+    width: 32.841%;
+}
+
+.intro_item_img div img{
+    width: 100%;
+}
+
+.intro_item_img div:nth-of-type(1)
+,.intro_item_img div:nth-of-type(3){
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+.intro_item_img div:nth-of-type(2){
+    margin: 0 10px;
+}
+
+.intro_text{
+    text-align: center;
+}
+
+.intro_text p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #3c3c3c;
+    margin-top: 24px;
+}

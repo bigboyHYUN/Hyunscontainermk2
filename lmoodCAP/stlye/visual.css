@@ -1,0 +1,29 @@
+.visual_container{
+    background: url('../img/visual.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding:60px;
+    position: relative;
+}
+
+.vi_text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vi_top{
+    font-size: 20px;
+    color: #979797;
+    font-weight: 500;
+}
+
+.vi_bottom{
+    font-size: 20px;
+    font-weight: 300;
+}

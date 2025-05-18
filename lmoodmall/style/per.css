@@ -1,0 +1,45 @@
+.per_container{
+    width:80.347%;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.per_container h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.per_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.per_items div img{
+    width: 70%;
+}
+
+.per_text h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.per_text p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.end{
+    background: url('../img/end.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding:32px;
+    position: relative;
+}

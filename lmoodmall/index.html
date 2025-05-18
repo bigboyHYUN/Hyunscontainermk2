@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="icon" href="../static/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Hyun's Container Mk.2 / Lmood Mall Renewal</title>
+</head>
+<body>
+    <header class="container">
+      <ul class="header_container">
+        <li class="header_logo">
+          <a href="/">
+            <svg width="68" height="43" viewBox="0 0 68 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_231_1724)">
+              <path d="M33.9991 42.2319C26.0148 42.2319 19.5203 32.8104 19.5203 21.2319C19.5203 9.6535 26.0166 0.231934 33.9991 0.231934C41.9817 0.231934 48.478 9.6535 48.478 21.2319C48.478 32.8104 41.9834 42.2319 33.9991 42.2319ZM33.9991 2.13785C26.5922 2.13785 20.5669 10.7049 20.5669 21.2319C20.5669 31.7589 26.5922 40.326 33.9991 40.326C41.406 40.326 47.4313 31.7589 47.4313 21.2319C47.4313 10.7049 41.406 2.13785 33.9991 2.13785Z" fill="#1C1C1C"/>
+              <path d="M33.9991 42.2319C14.9341 42.2319 0 33.0073 0 21.2319C0 9.45656 14.9341 0.231934 33.9991 0.231934C53.0641 0.231934 67.9983 9.45656 67.9983 21.2319C67.9983 33.0073 53.0641 42.2319 33.9991 42.2319ZM33.9991 2.13785C25.1112 2.13785 16.7623 4.20577 10.4911 7.96042C4.49019 11.5562 1.04666 16.3941 1.04666 21.2319C1.04666 26.0698 4.49019 30.9076 10.4911 34.5035C16.7623 38.2581 25.1112 40.326 33.9991 40.326C42.887 40.326 51.2359 38.2581 57.5072 34.5035C63.5098 30.9076 66.9516 26.073 66.9516 21.2319C66.9516 16.3909 63.5081 11.5562 57.5072 7.96042C51.2359 4.20577 42.887 2.13785 33.9991 2.13785Z" fill="#1C1C1C"/>
+              <path d="M34.5225 1.18481H33.4758V41.2789H34.5225V1.18481Z" fill="#1C1C1C"/>
+              <path d="M67.4767 20.2791H0.523315V22.185H67.4767V20.2791Z" fill="#1C1C1C"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_231_1724">
+              <rect width="68" height="42" fill="white" transform="translate(0 0.231934)"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>        
+        </li>
+        <li class="header_mid">
+          <span class="old glitch">
+            ⓒDesign & Develope by HYUN
+          </span>
+        </li>
+        <li class="nav_menu">
+          <nav class="header_menu">
+            <span class="header_menu_text">menu</span>
+            <ul class="nav_hover">
+              <li><button><span>HOME</span></button></li>
+              <li><button><span>WTH</span></button></li>
+              <li><button><span>WORK</span></button></li>
+              <li><button><span>CONTACT</span></button></li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="prograss_bar">
+        <ul class="pb_item">
+          <li class="pb_left">
+            <p class="pixel pb_left_small glitch"></p>
+            <p class="old pb_left_big glitch"></p>
+          </li>
+          <li class="pb_right">
+              <span class="pixel pb_right_small glitch blinking-text">scroll bar</span>
+              <div class="pb_bar">
+                <div id="scrollIndicator"></div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section>
+        <div class="visual_container">
+            <div class="vi_png">
+                <ul class="vi_center tagline">
+                    <li class="vi_logo">
+                        <img src="./png/logovi.png" alt="">
+                        <img src="./png/slo_vi.png" alt="">
+                    </li>
+                    <li class="vi_subtext">
+                        <a href="https://lmood.co.kr/">
+                            <p>
+                                https://lmood.co.kr/
+                            </p>
+                        </a>
+                    </li>
+                    <li class="vi_subtext">
+                        <p>*현재 운영중인 사이트 디자인과 시안이 상이할 수 있습니다.</p>
+                    </li>
+                </ul> 
+            </div>
+            
+            <ul class="vi_util punchline_c">
+                <li>
+                    <p>Planning & Design / General Director (with Last Design) </p>
+                </li>
+                <li>
+                    <p>엘무드 자사몰 리뉴얼 프로젝트 (2024.12 - 2025.03)</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="index_container">
+        <div class="index_flex">
+            <div class="index_left">
+                <img class="headlined" src="./png/i.png" alt="">
+                <img class="punchline_c" src="./png/NDEX.png" alt="">
+            </div>
+            <div class="index_right">
+               <ul>
+                    <li class="index_ca">
+                        <ul class="index_text">
+                            <li class="en punchline_b">1. Overview</li>
+                            <li class="punchline_d">ㆍ 목표 및 기존 사이트 분석</li>
+                            <li class="punchline_e">ㆍ 개선방향</li>
+                        </ul>
+                    </li>
+                    <li class="index_ca">
+                        <ul class="index_text">
+                            <li class="en punchline_b">2. Process</li>
+                            <li class="punchline_d">ㆍ 디자인 시스템</li>
+                            <li class="punchline_e">ㆍ 주요 디자인 및 반응형</li>
+                        </ul>                        
+                    </li>
+                    <li class="index_ca">
+                        <ul class="index_text">
+                            <li class="en punchline_b">3. Performance and results</li>
+                            <li class="punchline_d">ㆍ 업체 컨택 및 핸들링</li>
+                            <li class="punchline_e">ㆍ 주요 변화</li>
+                        </ul>                        
+                    </li>
+               </ul> 
+            </div>
+        </div>
+    </section>
+
+    <section class="cate_one headlined">
+        <div class="cate_one_left taglined">
+            <img src="./img/cate_one.png" alt="">
+        </div>
+        <div class="cate_one_right">
+            <ul class="cate_one_text headline">
+                <li>
+                    <img class="ones taglined" src="./png/star_one.png" alt="">
+                </li>
+                <li>
+                    <h2 class="en">1. Overview</h2>
+                </li>
+                <li>
+                    <p>“프로젝트를 맡게 된 후 가장 먼저 눈에 띄었던 것은 UX를 전혀 고려하지 않은<br>
+                        UI와 사이트 맵, 그리고 모바일에서 사용하기 불편한 구조였습니다.”
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="container ana_container">
+        <h6 class="over_cate headlined">1-1. 목표 및 기존 사이트 분석</h6>
+        <div class="ana_sec">
+            <div class="ana_one_left taglined">
+                <span>*기존 사이트</span>
+                <img src="./img/anl_one.jpg" alt="">
+            </div>
+            <div class="ana_one_right  text_margin">
+                <ul>
+                    <li><h4 class="punchline_b">1. 메인 배너 및 GNB</h4></li>
+                    <li>
+                        <p class="punchline_d">
+                            초기 사이트는 모든 카테고리가 영어로 되어있으나, 직관적이지 않은 header와 
+                            상품바로가기 및 GNB가 가장 큰 문제였으며 메인배너는 링크 이동도 되지않는
+                            그저 이미지 한장을 걸어두는 것에 불과한 장식으로 사용되고 있었습니다. 
+                            <br><br>
+                            그리고 추후 새로 전개하는 우먼즈 라인도 홍보할 공간이 필요했기 때문에 
+                            배너영역은 무조건 개선을 해야겠다고 판단이 섰습니다. 
+                            추가적으로 사이트의 이용자는 대부분이 한국인이므로, 모든 카테고리를
+                            한글화하여 사용하기로 개선방향을 잡았습니다.
+                        </p>
+                    </li>
+                </ul>
+                
+                <div class="key_left punchline_e">
+                    <img src="./png/key.png" alt="">
+                    <h5>: UX 강화 및 배너 활용도 상승</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="container ana_container">
+        <h6 class="over_cate headlined">1-1. 목표 및 기존 사이트 분석</h6>
+        <div class="ana_sec">
+            <div class="ana_one_right">
+                <ul>
+                    <li><h4 class="punchline_a">2. 상품목록 및 상세페이지</h4></li>
+                    <li>
+                        <p class="punchline_c">
+                            잘 알아볼수 없는 상품명 및 레이아웃과 계층구조가 괴상하게 잡혀있는 상세페이지를 보며
+                            상품목록에서는 최대한 이미지에 몰입할 수 있도록 제작하고 상세페이지는 각 정보들의
+                            폰트 계층을 확실하게 부여해주어 사용자가 혼란스럽지 않도록 기획방향을 잡았습니다.
+                            <br><br>
+                            가장 의문스러웠던 점은 전혀 관리가 안되고 있는 상품별 정보와 UX입니다.
+                            사이트 통계를 보았을때 모바일 사용자가 현저히 많았으므로, 반응형을 고려하여
+                            좀 더 사용자가 사용하기 편하게 만드는 것이 핵심이라 판단했습니다.
+                        </p>
+                    </li>
+                </ul>
+                
+                <div class="key_left punchline_cs">
+                    <img src="./png/key_two.png" alt="">
+                    <h5>: 폰트 계층 부여 및 이미지 몰입도</h5>
+                </div>
+            </div>
+            <div class="ana_one_left taglined">
+                <span class="ana_tex_right">*기존 사이트</span>
+                <img src="./img/ana_two.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="container ana_container">
+        <h6 class="over_cate headlined">1-1. 목표 및 기존 사이트 분석</h6>
+        <div class="ana_sec">
+            <div class="ana_one_left tagline">
+                <span>*기존 사이트</span>
+                <img src="./img/anl_one.jpg" alt="">
+            </div>
+            <div class="ana_one_right  text_margin">
+                <ul>
+                    <li><h4 class="punchline_b">3. 주문 시스템 및 인포</h4></li>
+                    <li>
+                        <p class="punchline_d">
+                            사용자가 상품을 클릭하여 제품을 보고 옵션을 선택한 후 구매까지 가는 과정도 매끄럽지 않았으며
+                            여러 기능적인 문제 (주문 취소 불가 등등...) 이 발생하여 이 사항도 개선할 필요를 느꼈으며, 사용자가
+                            좀 더 직관적으로 사이트와 상호작용할 수 있도록 돕는 것이 디자인의 핵심이라고 파악되었습니다.
+                            <br><br>
+                            또한, 따로 존재하는 인포메이션 페이지를 하단 footer에 몰아넣고 사용자 UX 향상 및 내부 직원들의
+                            업무 효율을 위하여 고객소통에 최적화된 “채널톡” 도입을 같이 기획하게 되어 업체까지 컨택하게 
+                            되었습니다. 온라인몰에서도 항상 직원에게 응대받는 느낌이 든다면 그보다 더 확실한 고객경험
+                            향상은 없다고 판단이 들었습니다.
+                        </p>
+                    </li>
+                </ul>
+                
+                <div class="key_left punchline_e">
+                    <img src="./png/key_three.png" alt="">
+                    <h5>: 유저와의 상호작용</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="ana_end tagline">
+        <img src="./img/anl.jpg" alt="">
+    </section>
+
+    <section class="cate_two tagline">
+        <div class="cate_one_right tagline">
+            <ul class="cate_one_text">
+                <li>
+                    <img class="twos taglined" src="./png/star_two.png" alt="">
+                </li>
+                <li>
+                    <h2 class="en">2. Process</h2>
+                </li>
+                <li>
+                    <p>“사이트 분석을 토대로 디자인 시스템을 구축하고 사내의 피드백을<br> 
+                        수렴하여 대략적인 디자인을 기획하였습니다. <br>사실 이 단계가 제일
+                        재미있는 부분이죠.”
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="cate_two_left punchline_b">
+            <img src="./img/cate_two.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="cate_sys">
+        <h5 class="headlined">2-1. 디자인 시스템</h5>
+        <div class="cate_sys_item">
+            <div class="sys_item_left">
+                <ul>
+                    <li><h4 class="en">Colors</h4></li>
+                    <li>
+                        <p class="en sub_text dow">Primary</p>
+                        <img class="punchline_cs" src="./png/primary.png" alt="">
+                        <p class="tagline">다른것이 아닌 옷에 집중이 되어야 하는 패션 쇼핑몰 특성상 컬러를 적극적으로 활용하지는 않으나,<br>
+                            띠배너 혹은 이벤트 배너 등에 사용되는 컬러가 하나쯤은 필요하다고 판단하여 이번 시즌에 맞는<br>
+                            컬러로 배정해두었습니다.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="sys_item_right">
+                <ul>
+                    <li>
+                        <p class="en sub_text dow">Font / Line / Interaction</p>
+                        <img class="punchline_e" src="./png/font.png" alt="">
+                        <p class="tagline">폰트 계층 및 라인과 사용자 인터렉션 *(hover 등) 에 사용될 무채색 컬러를 배정해주었습니다.<br>
+                            사실상 제일 많이 가용되는 색상들입니다.</p>
+                    </li>
+                    <li>
+                        <p class="en sub_text dow">Error / Other</p>
+                        <img class="punchline_e" src="./png/error.png" alt="">
+                        <p class="tagline">기본적으로 사용해야 할 black / white와<br>
+                            에러시 사용될 컬러를 배정해두었습니다.</p>
+                    </li>
+                </ul>
+                <p class="en sub_text">from. Material Design System</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="cate_sys">
+        <h4 class="en font_sys headlined">Font</h4>
+        <div class="font_item">
+            <div>
+                <img class="punchline_c" src="./img/font.jpg" alt="">
+                <p class="tagline">
+                    초기 기획에는 언어의 특성때문에 한글과 영어를 구분하여 폰트를 지정하려고 하였으나, 
+                    카페24 특성 및 현실적인 문제(비용 등..) 으로 인해 하나의 폰트로 사이트를 운영하기로 하고
+                    디자인폰트는 이미지에 직접 넣어 사용하는 방식으로 합의를 보았습니다. 
+                    대중적으로 사용되는 Noto sans 폰트를 사용하여 조금 더 가독성이 좋아지도록 의도하였습니다.
+                </p>
+            </div>
+            <div>
+                <img class="punchline_d" src="./img/font_two.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="mock_container headline">
+        <div class="mock_items">
+            <h2 class="headline">주요 디자인 및 반응형</h2>
+            <h4 class="headline">Design by HYUN</h4>
+        </div>
+        <div class="mock_items_two">
+            <h2 class="headline">Intro Video</h2>
+        </div>
+    </section>
+
+    <section class="design_container">
+        <div class="design_item_one">
+            <h3 class="en headlined">Main Home</h3>
+            <a class="headlined" href="https://lmood.co.kr/"><p>https://lmood.co.kr/</p></a>
+            <div class="design_contents">
+                <ul>
+                    <li><img class="de_one punchline_c" src="./img/main_one_left.jpg" alt=""></li>
+                    <li><img class="de_one_t tagline" src="./png/conn.png" alt=""></li>
+                    <li>
+                        <img class="de_one_th punchline_e" src="./img/main_one_right.jpg" alt="">
+                        <h3 class="tagline">이미지의 공격적인 배치</h3>
+                        <p class="headline">기존의 아무런 기능이 없던 이미지걸이에 불과했던 메인 배너 비주얼 영역을 대폭 변경하고 새로이 출시되는 우먼즈를 조금 더 공격적으로 마케팅<br>
+                            하기 위해 맨즈와 우먼즈를 위한 서브배너 페이지를 따로 제작하고 사이트 입장시 바로 입장이 가능하도록 전면에 배치했습니다.<br>
+                            추가로 기획전, 브랜드의 새소식등을 실을수 있는 세컨드 비주얼배너 등을 추가하여 좀 더 많은 컨텐츠를 배치할 수 있도록 디자인했습니다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    
+    <section class="design_container">
+        <div class="design_item_one">
+            <h3 class="en headlined">Mans Sub Banner</h3>
+            <a class="headlined" href="https://lmood.co.kr/man.html"><p>https://lmood.co.kr/man.html</p></a>
+            <div class="design_contents">
+                <ul>
+                    <li><img class="de_two punchline_cs" src="./img/main_two_left.jpg" alt=""></li>
+                    <li>
+                        <img class="de_two_t punchline_b" src="./img/main_two_right.jpg" alt="">
+                        <h3 class="tagline">적극적인 이미지 활용 및 카테고리</h3>
+                        <p class="headline">최상단에 신상품으로 갈 수 있는 비주얼 배너를 배치하고 계층에 따라 해당 시즌의 주력 카테고리, 그리고 상품목록으로 굳이 이동하지 않아도 바로 확인이 가능한<br>
+                            MD추천 상품들을 스와이퍼로 배치하여 접근성을 높이고 최하단에는 브랜드 소식등을 배치하여 컨텐츠를 늘려주었습니다. </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="design_item_one">
+        <h3 class="en headlined">Mans Sub Banner</h3>
+        <a class="headlined" href="https://lmood.co.kr/man.html"><p>https://lmood.co.kr/man.html</p></a>
+        <img class="main_three punchline_d" src="./img/main_three.png" alt="">
+        <ul class="main_three_bo">
+            <li>
+                <h3 class="tagline">적극적인 이미지 활용 및 카테고리</h3>
+                <p class="headline">최상단에 신상품으로 갈 수 있는 비주얼 배너를 배치하고 계층에 따라 해당 시즌의 주력 카테고리,<br> 그리고 상품목록으로 굳이 이동하지 않아도 바로 확인이 가능한<br>
+                    MD추천 상품들을 스와이퍼로 배치하여 접근성을 높이고 최하단에는 브랜드 소식등을 배치하여 <br>컨텐츠를 늘려주었습니다. </p>
+            </li>
+            <li><img class="main_three_bo_img punchline_e'" src="./img/main_three_t.jpg" alt=""></li>
+        </ul>
+    </section>
+
+    <section class="mock_container tagline">
+        <div class="mock_items_three">
+            <h2 class="headline">상품 목록 및 상세페이지 디자인</h2>
+        </div>
+    </section>
+
+    <section class="container product">
+        <div>
+            <h3 class="en headlined">Product / Info</h3>
+            <a href="https://lmood.co.kr/product/list.html?cate_no=292"><p>https://lmood.co.kr/product/list.html?cate_no=292</p></a>
+        </div>
+        <img class="pro_one tagline" src="./img/pro_one.png" alt="">
+    </section>
+
+    <section class="mock_container tagline">
+        <div class="mock_items_four">
+            <h2 class="headline">기타 유틸리티 디자인</h2>
+        </div>
+
+        <div class="mock_items_five">
+        </div>
+    </section>
+
+    <section class="cate_one tagline">
+        <div class="cate_one_left headline">
+            <img src="./img/cate_one.png" alt="">
+        </div>
+        <div class="cate_one_right headline">
+            <ul class="cate_one_text">
+                <li>
+                    <img class="onesth taglined" src="./png/star_three.png" alt="">
+                </li>
+                <li>
+                    <h2 class="en">3. Performance <br>
+                        and results</h2>
+                </li>
+                <li>
+                    <p>“개발자님과의 협업을 통해 웹사이트를 구성하는 요소를 조금 더 심층적으로<br> 
+                        공부할 수 있는 계기가 되었습니다. 디자이너와 개발자간의 소통으로<br>
+                        최대한 오차범위를 줄이는게 포인트라고 생각했죠.”
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="per_container">
+        <h6 class="punchline_c">업체 컨택 및 개발자와의 협업</h6>
+        <div class="per_items">
+            <div><img class="punchline_cs" src="./img/perform.png" alt=""></div>
+            <div class="per_text">
+                <h3 class="taglined">쉽지않았던 업체 핸들링</h3>
+                <p class="headline">디자인이 마무리되고 개발을 해줄 업체를 찾아 헤메며 여러 에이전시를 찾아서 디깅해보았는데<br>
+                    여러가지 요인 (견적, 작업기간, 대표님의 의견 등..)으로 인해 ‘라스트디자인’ 이라는 1인 개발에이전시와 함께<br>
+                    프로젝틀르 진행하게 되었습니다.
+                    <br><br>
+                    재고관리, 고객관리 등의 이유로 인해 독립몰이 아닌 기존과 동일한 카페24 기반의 웹사이트를 개발하는데에<br>
+                    당초 기획되어있던 몇몇의 기능들은 구현하지 못하였으나, 지속적인 소통 및 디자인 수정으로 <br>
+                    본래의 기획과 최대한 멀어지지 않도록 노력했습니다.
+                    <br><br>
+                    견적문의부터 개발자와의 협업 및 직접 퍼블리싱하는 구간도 있었으며 디자이너로서 조금 더 성장하는<br>
+                    좋은 계기가 되었던것 같습니다. </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="end headline"></div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html> 

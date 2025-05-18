@@ -1,0 +1,34 @@
+.cate_a{
+    background: url('../img/two_back.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 72px 187px;
+}
+
+.cate_text{
+    font-size: 52px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cate_text span{
+    font-weight: 600;
+    color: #fff;
+}
+
+.tx_bottom{
+    position: absolute;
+    bottom: 72px;
+    right: 187px;
+}
+
+.app_img img{
+    width: 100%;
+}
+
+.mock_a{
+    margin-top: 160px;
+}

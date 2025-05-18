@@ -1,0 +1,89 @@
+.design_item_one{
+    width:80.347%;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.design_item_one > h3,
+.design_item_two > h3
+{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.design_item_one > a p
+,.design_item_two > a p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    color: #3c3c3c;
+}
+
+.design_contents ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.de_one{
+    width: 465px;
+}
+
+.de_one_t{
+    width: 124px;
+}
+
+.de_one_th{
+    width: 909px;
+}
+
+.design_contents ul li:nth-of-type(3) h3
+,.design_contents ul li:nth-of-type(2) h3{
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.design_contents ul li:nth-of-type(3) p
+,.design_contents ul li:nth-of-type(2) p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 12px;
+}
+
+.de_two{
+    width: 98%;   
+}
+
+.de_two_t{
+    width: 98%;
+}
+
+.main_three{
+    width: 100%;
+}
+
+.main_three_bo{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_three_bo_img{
+    width: 100%;
+}
+
+.main_three_bo li h3{
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.main_three_bo li p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 12px;
+}

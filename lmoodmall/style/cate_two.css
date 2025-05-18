@@ -1,0 +1,27 @@
+.cate_two{
+    background: url('../img/cate_left.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cate_two div{
+    width: 50%;
+}
+
+
+
+.cate_two_left img{
+    width: 100%;
+    height: 100%;
+}
+
+.twos{
+    width: 187px;
+    height: 190px;
+    margin-bottom: 16px;
+}
+ 

@@ -1,0 +1,161 @@
+.two_container
+,.three_container
+,.four_container
+,.five_container
+,.six_container{
+    width: 100%;
+    padding-top: 120px;
+    overflow: hidden;
+}
+
+.two{
+    background: url('../img/two.jpg ');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.three_left,
+.three_right{
+    width: 50%;
+    text-align: center;
+}
+
+.three_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three_left img{
+    width: 54.679%;
+}
+
+.three_right img{
+    width: 100%;
+}
+
+.three_right p{
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.three_right p:nth-of-type(1){
+    margin-bottom: 16px;
+}
+
+.three_right p:nth-of-type(2){
+    margin-top: 16px;
+}
+
+.four_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.four_item div{
+    width: 50%;
+}
+
+.four_item div:nth-of-type(1){
+    background: url('../img/four_left.jpg ');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four_item div:nth-of-type(2){
+    background: url('../img/four_right.jpg ');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five_container{
+    width: 80.347%;
+    margin: 0 auto;
+    padding: 140px 0;
+}
+
+.five_container div img{
+    width: 100%;
+}
+
+.six_container{
+    width: 96.637%;
+    margin: 0 auto;
+}
+
+.six_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.six_item div:nth-of-type(1){
+    width: 57.858%;
+}
+
+.six_item div:nth-of-type(2){
+    width: 41.055%;
+}
+
+.six_left img{
+    width: 100%;
+}
+
+.six_right li img{
+    width: 100%;
+}
+
+.six_right li + li{
+    margin-top: 2.14%;
+}
+
+.seven_item{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seven_item div:nth-of-type(1){
+    width: 57.858%;
+}
+
+.seven_item div:nth-of-type(2){
+    width: 41.055%;
+}
+
+.seven_item div img{
+    width: 100%;
+}
+
+.mid_text{
+    padding: 18px 0;
+    text-align: center;
+}
+
+.mid_text p{
+    font-size: 20px;
+    color: #3c3c3c;
+}
+
+.end_container{
+    background: url('../img/eight.jpg');
+    width: 100%;
+    height: 1269px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

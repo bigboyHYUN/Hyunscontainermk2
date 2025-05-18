@@ -1,0 +1,101 @@
+.vi{
+    position: relative;
+}
+
+.vi_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vi_back_text_top,.vi_back_text_bottom{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 20vw;
+    color: #daeef0;
+    font-weight: 600;
+    z-index: -1;
+    line-height: 390px;
+}
+
+.vi_back_text_bottom{
+    bottom: 0;
+}
+
+.vi_app,.vi_text{
+   width: 50%;
+   height: 100vh; 
+}
+
+.vi_app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vi_app img{
+    width: 398px;
+    height: 642px;
+}
+
+.vivi{
+    width: 200%;
+}
+
+.vi_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vi_small{
+    font-size: 20px;
+    font-weight: 500;
+    color: #979797;
+    margin-bottom: 12px;
+}
+
+.vi_title{
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.vi_title span{
+    color:#1BB8C7;
+    font-size: 72px;
+    margin-left: 12px;
+}
+
+.vi_scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vi_scroll h5{
+    color:#979797;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+
+}
+
+.vi_scroll_arrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.vi_scroll_arrow img{
+    width: 12px;
+    height: 6px;
+
+}
+
+.vi_scroll_arrow img + img{
+    margin-top: 2px;
+}

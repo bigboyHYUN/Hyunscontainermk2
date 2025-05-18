@@ -1,0 +1,57 @@
+.info_container{
+    width: 80.347%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.info_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_title{
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.info_left,.info_right{
+    width: 49.313%;
+}
+
+.info_left_img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.info_left_link{
+    font-size: 16px;
+    color: #979797;
+}
+
+.info_right{
+    margin-top: 72px ;
+}
+
+.info_right_en{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3c3c3c;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.info_right_ko{
+    font-size: 20px;
+    font-weight: 300;
+    color: #3c3c3c;
+    margin-bottom: 48px;
+        line-height: 32px;
+}
+
+.info_right_ab{
+    font-size: 20px;
+    font-weight: 300;
+    color: #979797;
+}

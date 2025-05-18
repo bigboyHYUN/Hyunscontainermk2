@@ -1,0 +1,40 @@
+.two{
+    display: flex;
+    align-items: center;
+    width:80.347%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.two_ti{
+    width: 90%;
+}
+
+.con h4{
+    font-size: 42px;
+    font-weight: 500;
+    color: #1BB8C7;
+    margin-bottom: 32px;
+}
+
+.title_main h2{
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.title_sub p{
+    font-size: 20px;
+    line-height: 36px;
+    color: #5b5b5b;
+}
+
+
+.line{
+    width: 1097px;
+    height: 176px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -160px;
+}
