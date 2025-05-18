@@ -1,6 +1,6 @@
-@import url('/PRsite/static/styles/reset.css');
-@import url('/PRsite/static/styles/font.css');
-@import url('/PRsite/static/styles/header.css');
+@import url('./reset.css');
+@import url('./common.css');
+@import url('./header.css');
 @import url('./common.css');
 @import url('./visual.css');
 @import url('./two.css');
