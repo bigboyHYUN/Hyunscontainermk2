@@ -78,6 +78,11 @@
     margin-left: 10px;
 }
 
+.vi_list_text_right{
+    position: absolute;
+    top: -12px;
+}
+
 .vi_list_text p{
     display: block;
     margin-left: 20px;
@@ -104,4 +109,3 @@
     width: 445px;
 }
 
-  
